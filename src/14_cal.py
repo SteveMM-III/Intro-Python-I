@@ -56,10 +56,6 @@ def num_check( num ):
         show_usage()
         exit()
 
-    if value < 999 or value > 9999:
-        show_usage()
-        exit()
-
     return value
 #########################################
 # Setup
